@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "kg-llm-fusion"
+version = "0.1.0"
+description = ""
+authors = ["Nikola <nikolovski.nikola42@gmail.com>"]
+readme = "README.md"
+packages = [{include = "app"}]
+
+[tool.poetry.dependencies]
+python = "^3.12,<3.13"
+requests = "^2.32.3"
+python-dotenv = "^1.0.1"
+pydantic = "^2.8.2"
+neo4j = "^5.23.1"
+langchain-community = "^0.2.11"
+wikipedia = "^1.4.0"
+wikipedia-api = "^0.6.0"
+torch-geometric = "^2.5.3"
+torch = "^2.4.0"
+langchain-text-splitters = "^0.2.2"
+langchain-experimental = "^0.0.64"
+langchain-openai = "^0.1.21"
+psycopg2-binary = "^2.9.9"
+transformers = "^4.44.2"
+peft = "^0.12.0"
+datasets = "^2.21.0"
+beir = "^2.0.0"
+mysql-connector-python = "^9.0.0"
+deepeval = "^1.1.6"
+pymongo = "^4.8.0"
+nltk = "^3.9.1"
+qdrant-client = "^1.11.2"
+numpy = "1.26.0"
+tqdm = "^4.66.5"
+distilabel = {extras = ["hf-inference-endpoints"], version = "^1.4.1"}
+beautifulsoup4 = "^4.12.3"
+cloudscraper = "^1.2.71"
+selenium = "^4.25.0"
+undetected-chromedriver = "^3.5.5"
+selenium-stealth = "^1.0.6"
+relbench = "^1.1.0"
+plotly = "^5.24.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
